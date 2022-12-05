@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif+Ethiopic:wght@100;200;300;500&family=Roboto:wght@300;400;700&display=swap');
+/*
+    RESETS
+*/    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+GENERAL STYLES 
+*/
+
+body{
+    /* background-color: rgb(154, 159, 224); */
+    background-image: url(./pics/dark-tunnel-with-white-neon-lights-blurry-reflections-floor-3d-abstract-black-background_334678-335.jpg);
+      /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+span{
+    display: block;
+    color: #D129FF;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key{
+    border: 4px solid #0a0124;
+    border-radius: 5px;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding:  1rem .5rem;
+    transition: all 0.09s;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.603);
+    text-shadow: 0 0 5px black;
+
+
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #D129FF;
+    box-shadow: 0 0 10px #D129FF;
+    color: #ffa2eb;
+    
+}
